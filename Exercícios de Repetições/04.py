@@ -1,32 +1,14 @@
 '''
-Faça um programa que leia e valide as seguintes informações:
-Nome: maior que 3 caracteres;
-Idade: entre 0 e 150;
-Salário: maior que zero;
-Sexo: 'f' ou 'm';
-Estado Civil: 's', 'c', 'v', 'd';
+Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule
+e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
 '''
+popA, popB, anos = 80000, 200000, 0
+cresA, cresB = 0.03, 0.015 
+while (popA < popB):
+    anos += 1
+    popA = popA + (popA * cresA)
+    popB = popB + (popB * cresB)
+print("Após %i anos o país A ultrapassou o país B em número de habitantes." % anos)
+print("País A: %.0f" % popA)
+print("País B: %.0f" % popB)
 
-while(True):
-	nome = input("Nome: ")
-	idade = int(input("Idade: "))
-	salario = float(input("Salário: "))
-	sexo = input("Sexo: ")
-	estadoCivil = input("Estado civil: ")
-	if(len(nome) > 3):
-		if(idade > 0 and idade <= 150):
-			if(salario > 0):
-				if(sexo == "f" or sexo == "F" or sexo == "m" or sexo == "M"):
-					if(estadoCivil == "s" or estadoCivil == "c" or estadoCivil == "v" or estadoCivil == "d"):
-						print("Tudo OK!")
-						break
-					else:
-						print("Estado civil inválido!")
-				else:
-					print("Sexo inválido!")
-			else:
-				print("Salário inválido!")
-		else:
-			print("Idade inválida!")
-	else:
-		print("Nome inválido!!")

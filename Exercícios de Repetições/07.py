@@ -1,5 +1,10 @@
-# Faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro. Depois modifique o programa para que ele mostre os números um ao lado do outro.
+# Faça um programa que leia 5 números e informe o maior número
 
-for i in range (21):
-	print (i)
-print(list(range(1,21)))
+num1 = int(input('Primeiro número'))
+num2 = int(input('Segundo número'))
+num3 = int(input('Terceiro número'))
+num4 = int(input('Quarto número'))
+num5 = int(input('Quinto número'))
+if num1 > num2:
+    print (num1)
+else: print (num2)
