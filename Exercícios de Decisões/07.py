@@ -4,9 +4,6 @@ n1 = int(input('Primeiro número: '))
 n2 = int(input('Segundo número: '))
 n3 = int(input('Terceiro número: '))
 
-maior = n1
-menor = n1
-
 if maior < n2:
 	maior = n2
 

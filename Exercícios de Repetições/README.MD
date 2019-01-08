@@ -42,3 +42,31 @@ Nessa pasta senhoras e senhores, vocês vão encontrar soluções para algumas d
          1. Imprima "Idade inválida"
    2. Senão
       1. Nome inválido             
+
+#####Exercício 4
+
+1. Defina a quantidade de habitantes da população A e B
+   1.Defina também o percentual de crescimento da população A e B
+2. Enquanto população A menor que população B
+   1. Anos é igual a anos + 1
+   2. Faça a soma de população A igual População A + (população A * crescimento A)
+   3. Faça o mesmo para população B
+3. Imprima a porcentagem de crescimento de maior valor
+   1. Imprima os valores finais da população A e B.
+   
+   
+#####Exercício 5 
+
+
+1. Informe a população da cidade A em decimal
+2. Informe a população da cidade B em decimal
+3. O ano é = à zero
+4. Informe a taxa de crescimento em decimal da população A
+5. Informe também a taxa de crescimento em decimal da população B
+6. Enquanto a população A < que a população B:
+   1. População A + = round, faça 'população A * Taxa de crescimento A entre parenteses e por fim divida por 100'
+   2. População B + = round, faça população B * taxa de crescimento B, entre parenteses e o divida por 100
+7. ano é = a ano + 1
+8. Imprima quantos anos levará para a cidade A ser maior que a B.
+9. Imprima população B terá x habitantes
+10. Imprima população A terá x habitantes.
