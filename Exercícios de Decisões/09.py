@@ -1,23 +1,29 @@
 # Faça um Programa que leia três números e mostre-os em ordem decrescente.
 
-
-def maior(um, outro):
-    return um if um > outro else outro
-
-
-
-def menor(um, outro):
-    return um if um < outro else outro
-
-
-v1 = int(input("Informe o primeiro valor"))
-v2 = int(input("Informe o segundo valor"))
-v3 = int(input("Informe o terceiro valor"))
-print("Variáveis v1,v2,v3 valem respectivamente", v1, v2, v3)
-w1, w2, w3 = v1, v2, v3
-v1 = maior(w1, maior(w2, w3))
-v2 = menor(menor(maior(w2, w3), maior(w2, w1)), menor(maior(w1, w3), maior(w1, w2)));
-v3 = menor(w1, menor(w2, w3))
-print("Após a ordenação")
-print("Variáveis v1,v2,v3 valem respectivamente", v1, v2, v3)
-print("Em ordem decrescente ficam", v3, v2, v1)
+num1 = int(input('Primeiro número'))
+num2 = int(input('Segundo número'))
+num3 = int(input('Terceiro número'))
+if num1 > num2 > num3:
+    print('O maior número é o {}'.format(num1))
+if num2 > num3 > num1:
+    print('O maior número é o {}'.format(num2))
+if num3 > num2 > num1:
+    print('O maior número é o {}'.format(num3))
+if num1 > num2 and num1 < num3:
+    print('O número {} é o do meio'.format(num1))
+if num1 < num2 and num1 > num3:
+    print('O número {} é o do meio'.format(num1))
+if num2 > num1 and num2 < num3:
+    print('O número {} é o do meio'.format(num2))
+if num2 < num1 and num2 > num3:
+    print('O número {} é o do meio'.format(num2))
+if num3 > num1 and num3 < num2:
+    print('O número {} é o do meio'.format(num3))
+if num3 < num1 and num3 > num2:
+    print('O número {} é o do meio'.format(num3))
+if num1 < num2 < num3:
+    print('O número {} é o menor'.format(num1))
+if num2 < num3 < num1:
+    print('O número {} é o menor'.format(num2))
+if num3 < num2 <num1:
+    print('O número {} é o menor'.format(num3))

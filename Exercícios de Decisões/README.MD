@@ -54,7 +54,7 @@ Nessa pasta senhoras e senhores, vocês vão encontrar soluções para algumas d
 1. Peça três números ao usuário e guarde-os em uma variável denominada "num"
 2. Se o  primeiro número for maior que o segundo e o terceiro
    1. Então imprima 'Este é o maior número'
-3. Se não se o segundo número for maior que o primeiro e o terceiro então
+3. Se não, se o segundo número for maior que o primeiro e o terceiro então
    1. Imprima 'Este é o maior número'
 4. Senão,
    1. imprima o terceiro número como o maior dentre eles.
@@ -94,7 +94,22 @@ Nessa pasta senhoras e senhores, vocês vão encontrar soluções para algumas d
 
 #####Exercício 9
 
-1. 
+1. Peça três números inteiros para o usuário
+2. Se o primeiro > segundo e primeiro > terceiro, então ele é o maior.
+3. Se o segundo > primeiro e segundo > terceiro então ele é o maior.
+4. Se o terceiro > primeiro e o terceiro > segundo então ele é o maior.
+5. Se o primeiro > segundo e o primeiro < terceiro então ele é o do meio
+6. Se o primeiro > que terceiro e < que o segundo, então ele é o do meio.
+6. Se o segundo > primeiro mas < que o terceiro então ele é o do meio.
+7. Se o segundo > terceiro mas < que primeiro, então ele é o do meio.
+7. Se o terceiro > que o primeiro e < que o segundo, então ele é o do meio.
+7. Se o terceiro > que o segundo e < primeiro, então ele é o do meio.
+8. Se o primeiro < que o segundo < que o terceiro, então ele é o menor.
+9. Se o segundo < que o primeiro e < que o terceiro, então ele é o menor;
+10. Se o terceiro < que o primeiro e < que o segundo, então esse é o menor.
+11. Imprima o maior número
+12. Imprima o número do meio
+13. Imprima o menor número
 
 
 
