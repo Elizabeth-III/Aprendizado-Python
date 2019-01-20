@@ -70,3 +70,51 @@ Nessa pasta senhoras e senhores, vocês vão encontrar soluções para algumas d
 8. Imprima quantos anos levará para a cidade A ser maior que a B.
 9. Imprima população B terá x habitantes
 10. Imprima população A terá x habitantes.
+
+
+#####Exercício 6
+
+1. Para i de 1 até 21: 
+   1. imprima i
+2. número + espaço + espaço + espaço (...) até 21.
+
+
+
+
+#####Exercício 7
+
+1. Primeiro, peça um número e guarde numa variável
+2. Peça o segundo número e guarde também na variável
+3. Se o primeiro > que o segundo
+   1. então imprima e guarde primeiro
+2. Se não,
+   1. imprima e guarde o segundo
+12. Para i de de 1 até 6
+    1.  Peça o terceiro número e guarde numa variável
+        5. Se o número  informado é maior do que o já salvo
+           1. imprima e guarde
+        2. Se não, 
+           1. Ignore e continuo com o número já salvo
+           
+           
+#####Exercício 8
+
+1. Comece pedindo ao usuário que digite 5 números decimais e os guarde numa variável
+2. Na variável denominada "soma" some todos os cinco números usando + para isso.
+3. Imprima "soma" para a soma dos valores
+4. Imprima "média" para a soma divido por 5.
+
+
+#####Exercício 9
+
+1. Para i de 1 até 51, acrescente o número dois para que 
+2. Imprima i
+
+
+#####Exercício 10
+
+1. Peça ao usuário que digite dois números e os salve respectivamente nas variáveis num1 e num2
+2. Enquanto num2 < num1 então digite os números que está sendo pedido
+3. Se não,
+   1. Para i in range (num1, num2,1):
+      print (i)
